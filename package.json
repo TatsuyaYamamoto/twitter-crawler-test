@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server public"
+    "start": "http-server public",
+    "deploy": "firebase deploy --only hosting"
   },
   "devDependencies": {
     "firebase-tools": "^11.16.1",
