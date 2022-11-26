@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server public"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "firebase-tools": "^11.16.1"
+    "firebase-tools": "^11.16.1",
+    "http-server": "^14.1.1"
   }
 }
